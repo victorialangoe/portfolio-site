@@ -45,7 +45,7 @@ const Home2 = () => {
               <br />
               <br />
               I'm particularly excited about developing 
-              <b className="purple"> cutting-edge NLP solutions </b>
+              <b className="purple">  NLP solutions </b>
               using
               <i>
                 <b className="purple">
