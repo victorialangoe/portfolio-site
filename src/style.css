@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: white;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -257,7 +257,6 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -273,25 +272,27 @@ button:focus {
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
+  color: #4A4A4A;
 }
 
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
+  color: #4A4A4A;
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #4A4A4A;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #4A4A4A !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #4A4A4A !important;
 }
 
 @media (max-width: 767px) {
@@ -324,7 +325,7 @@ button:focus {
 }
 
 .home-about-description {
-  color: white !important;
+  color: #4A4A4A !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -339,7 +340,7 @@ button:focus {
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
-  color: white !important;
+  color: #4A4A4A !important;
 }
 
 .home-about-social-links {

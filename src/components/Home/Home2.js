@@ -1,15 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/lol.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Home2() {
+const Home2 = () => {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -19,37 +18,42 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              I'm a passionate researcher and data scientist specializing in
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Natural Language Processing </b>
               </i>
+              and machine learning, with a particular focus on Norwegian language technology.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I recently completed my M.Sc. in Computer Science at the 
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> University of Oslo </b>
               </i>
+              , building upon my B.Sc. in Computer Science and B.Sc. in 
+              <i>
+                <b className="purple"> Political Science</b>
+              </i>
+              . Currently looking for work as a Data Scientist/NLP Researcher or Fullstack Developer!
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My research focuses on building &nbsp;
+              <i>
+                <b className="purple">Norwegian language models and datasets</b>
+              </i>
+              , including question-answering systems and language identification tools
+              for Scandinavian languages.
+              <br />
+              <br />
+              I'm particularly excited about developing 
+              <b className="purple"> cutting-edge NLP solutions </b>
+              using
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Python, machine learning frameworks, and modern web technologies
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              &nbsp; to make language technology more accessible for Norwegian speakers.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +71,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/victorialangoe"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/victoria-ovedie-langoe/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +91,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/victorialangoe"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -111,5 +105,6 @@ function Home2() {
       </Container>
     </Container>
   );
-}
+};
+
 export default Home2;

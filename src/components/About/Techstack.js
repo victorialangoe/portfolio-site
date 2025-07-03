@@ -5,67 +5,68 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
   DiJava,
+  DiDocker,
+  DiDjango,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
+  SiKotlin,
+  SiFlask,
+  SiCsharp,
+  SiR,
+  SiC
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
-function Techstack() {
+const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKotlin />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiR />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiC />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCsharp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
     </Row>
   );
-}
+};
 
 export default Techstack;

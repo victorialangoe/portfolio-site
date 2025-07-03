@@ -7,7 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
-function About() {
+const About = () => {
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -41,7 +41,7 @@ function About() {
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Currently</strong> learning
         </h1>
         <Toolstack />
 
