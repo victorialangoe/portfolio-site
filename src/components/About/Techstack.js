@@ -21,49 +21,51 @@ import {
 } from "react-icons/si";
 
 const Techstack = () => {
+  const iconStyle = { color: "#4A4A4A" };
+  
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiPython style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiJavascript1 style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiReact style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiNodejs style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDjango />
+        <DiDjango style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFlask />
+        <SiFlask style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiPostgresql style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDocker />
+        <DiDocker style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiJava style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiKotlin />
+        <SiKotlin style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiR />
+        <SiR style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiC />
+        <SiC style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiCsharp />
+        <SiCsharp style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGit style={iconStyle} />
       </Col>
     </Row>
   );

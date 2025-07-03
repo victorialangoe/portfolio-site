@@ -1,44 +1,43 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { IoGameController } from "react-icons/io5";
+import { MdTravelExplore } from "react-icons/md";
+import { Beer } from "lucide-react"; 
 
 const AboutCard = () => {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
+        <blockquote className="blockquote mb-0" style={{ color: "#4A4A4A" }}>
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi! I am <span className="purple">Victoria Ovedie Chruickshank Langø </span>
+            from <span className="purple"> Sandnessjøen, Norway.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I have just graduated after seven years from the <span className="purple">University of Oslo</span>, 
+            where I completed my M.Sc. in Computer Science: Programming and System Architecture 
+            with a specialization in <span className="purple">Natural Language Processing</span>.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I also hold a B.Sc. in Computer Science and a B.Sc. in <span className="purple">Political Science</span>, 
+            giving me a unique interdisciplinary perspective on technology and society.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <IoGameController /> Playing Video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <MdTravelExplore /> Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <Beer /> Try out new beers
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
   );
-}
+};
 
 export default AboutCard;
