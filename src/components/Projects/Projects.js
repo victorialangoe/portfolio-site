@@ -52,7 +52,7 @@ function Projects() {
               imgPath={article}
               isBlog={false}
               title="Published Research Article"
-              description="dsfdsf"
+              description="TEST"
               article={true}
               ghLink="https://dspace.ut.ee/items/e248e103-f2d2-4e9c-93f3-963e81bc1d09"
             />
