@@ -12,27 +12,33 @@ const UntappdCard = () => {
   };
 
   return (
-    <div style={{
-      backgroundColor: "#fff5d6",
-      padding: "16px",
-      borderRadius: "16px",
-      boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-      maxWidth: "384px",
-      color: "#4A4A4A",
-      margin: "20px auto",
-    }}>
-      <div style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        marginBottom: "12px"
-      }}>
+    <div
+      style={{
+        backgroundColor: "#fff5d6",
+        padding: "16px",
+        borderRadius: "16px",
+        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+        maxWidth: "384px",
+        color: "#4A4A4A",
+        margin: "20px auto",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          marginBottom: "12px",
+        }}
+      >
         <Beer style={{ color: "#4A4A4A", marginRight: "8px" }} />
-        <h2 style={{
-          fontSize: "18px",
-          fontWeight: "bold",
-          margin: 0
-        }}>
+        <h2
+          style={{
+            fontSize: "18px",
+            fontWeight: "bold",
+            margin: 0,
+          }}
+        >
           Untappd Profile
         </h2>
       </div>
@@ -66,8 +72,8 @@ const UntappdCard = () => {
             position: "relative",
             zIndex: 9999,
           }}
-          onMouseEnter={(e) => e.target.style.backgroundColor = "#b45309"}
-          onMouseLeave={(e) => e.target.style.backgroundColor = "#d97706"}
+          onMouseEnter={(e) => (e.target.style.backgroundColor = "#b45309")}
+          onMouseLeave={(e) => (e.target.style.backgroundColor = "#d97706")}
         >
           View Full Profile
         </a>

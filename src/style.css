@@ -266,27 +266,27 @@ button:focus {
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
 .main-name {
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #4A4A4A !important;
+  color: #4a4a4a !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #4A4A4A !important;
+  color: #4a4a4a !important;
 }
 
 @media (max-width: 767px) {
@@ -319,7 +319,7 @@ button:focus {
 }
 
 .home-about-description {
-  color: #4A4A4A !important;
+  color: #4a4a4a !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -334,7 +334,7 @@ button:focus {
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
-  color: #4A4A4A !important;
+  color: #4a4a4a !important;
 }
 
 .home-about-social-links {
@@ -456,9 +456,8 @@ button:focus {
 
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
+  color: #4a4a4a;
   background-color: transparent !important;
-  opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
@@ -527,7 +526,7 @@ button:focus {
   box-shadow: none !important;
 }
 .project-heading {
-  color: #4A4A4A;
+  color: #4a4a4a;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -578,7 +577,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: #4A4A4A;
+  color: #4a4a4a;
   background-color: transparent !important;
 }
 
@@ -736,4 +735,3 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
-
