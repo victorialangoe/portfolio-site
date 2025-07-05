@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4cc28344.css",
+    "main.js": "/static/js/main.f67f880d.js",
+    "static/js/453.5d79306b.chunk.js": "/static/js/453.5d79306b.chunk.js",
+    "static/media/me.jpg": "/static/media/me.028147ad3220c91e1517.jpg",
+    "static/media/IN1020-universet.svg": "/static/media/IN1020-universet.0b196fcab282a581a88f2000b903710c.svg",
+    "static/media/Article.svg": "/static/media/Article.18d92d113dad8f29dc3155397725d6bb.svg",
+    "static/media/DeepLearning.svg": "/static/media/DeepLearning.c1d0beece3bd1cf9e29ad3d7013de6a8.svg",
+    "static/media/MotoCast.svg": "/static/media/MotoCast.de3bfaf06b2a89e94b22f4724b8c402b.svg",
+    "static/media/lol.png": "/static/media/lol.90f2cf5cf76ca3bb6b91.png",
+    "static/media/Victoria_CV.pdf": "/static/media/Victoria_CV.7cd685aa54d311470c91.pdf",
+    "static/media/freeCodeCamp.svg": "/static/media/freeCodeCamp.60b911b104689b38123c7dcef0e62e29.svg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "static/media/logo.svg": "/static/media/logo.826b276b68661ad71b7f2a5f3ff2b43f.svg",
+    "index.html": "/index.html",
+    "main.4cc28344.css.map": "/static/css/main.4cc28344.css.map",
+    "main.f67f880d.js.map": "/static/js/main.f67f880d.js.map",
+    "453.5d79306b.chunk.js.map": "/static/js/453.5d79306b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cc28344.css",
+    "static/js/main.f67f880d.js"
+  ]
+}
