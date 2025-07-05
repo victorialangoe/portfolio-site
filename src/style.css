@@ -627,6 +627,18 @@ button:focus {
   padding-left: 80px !important;
 }
 
+/* Add to App.css or style.css */
+.about-text {
+  text-align: justify;
+}
+
+/* Mobile override */
+@media (max-width: 768px) {
+  .about-text {
+    text-align: left !important;
+  }
+}
+
 @media (max-width: 767px) {
   .resume-left {
     padding-right: 15px !important;

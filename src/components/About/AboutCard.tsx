@@ -8,15 +8,11 @@ export const AboutCard: React.FC = () => {
     color: "#4A4A4A",
   };
 
-  const textStyle: React.CSSProperties = {
-    textAlign: "justify",
-  };
-
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0" style={blockquoteStyle}>
-          <p style={textStyle}>
+          <p className="about-text">
             Hi! I am{" "}
             <span className="purple">Victoria Ovedie Chruickshank Langø </span>
             from <span className="purple"> Sandnessjøen, Norway.</span>
