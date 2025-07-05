@@ -1,10 +1,31 @@
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import imageMe from "../../Assets/me.jpg";
-import Particle from "../Particle";
-import Home2 from "./Home2";
-import Type from "./Type";
+import { Home2 } from "./Home2";
+import { Type } from "./Type";
+import { Particle } from "../Particle";
 
-const Home = () => {
+export const Home: React.FC = () => {
+  const headingStyle: React.CSSProperties = {
+    paddingBottom: 15,
+  };
+
+  const typeContainerStyle: React.CSSProperties = {
+    padding: 50,
+    textAlign: "left",
+  };
+
+  const colStyle: React.CSSProperties = {
+    paddingBottom: 20,
+  };
+
+  const imageStyle: React.CSSProperties = {
+    maxHeight: "450px",
+    borderRadius: "45%",
+    zIndex: 9999,
+    position: "relative",
+  };
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -12,7 +33,7 @@ const Home = () => {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 style={headingStyle} className="heading">
                 Hi!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
@@ -24,17 +45,17 @@ const Home = () => {
                 <strong className="main-name"> Victoria Langø</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={typeContainerStyle}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20, }}>
+            <Col md={5} style={colStyle}>
               <img
                 src={imageMe}
                 alt="Image of Victoria Langø"
                 className="img-fluid"
-                style={{ maxHeight: "450px", borderRadius: "45%", zIndex: 9999, position: "relative" }}
+                style={imageStyle}
               />
             </Col>
           </Row>
@@ -43,6 +64,4 @@ const Home = () => {
       <Home2 />
     </section>
   );
-}
-
-export default Home;
+};

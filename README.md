@@ -42,5 +42,5 @@ You will find all the components used and you can edit your information accordin
 
 ### 🙏 Acknowledgements
 
-This portfolio is originally based on the work by [Soumyajit4419](https://github.com/soumyajit4419/Portfolio).  
+This portfolio is originally based on the work by [Soumyajit4419](https://github.com/soumyajit4419/Portfolio), but rewritten entirely in Typescript along with other changes.
 I've customized and extended it to better suit my own style and goals. Many thanks for the great foundation!

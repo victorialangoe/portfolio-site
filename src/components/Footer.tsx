@@ -2,30 +2,34 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+const Footer: React.FC = () => {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+
+  const linkStyle: React.CSSProperties = {
+    color: "white",
+  };
+
   return (
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Developed by Victoria Langø</h3>
         </Col>
-          <Col md="4" className="footer-copywright">
-            <h3>Copyright © {year} VL</h3>
-          </Col>
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright © {currentYear} VL</h3>
+        </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
                 href="https://github.com/victorialangoe"
-                style={{ color: "white" }}
-                target="_blank" 
+                style={linkStyle}
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -34,8 +38,8 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/victoria-ovedie-langoe/"
-                style={{ color: "white" }}
-                target="_blank" 
+                style={linkStyle}
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -44,8 +48,8 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/victorialangoe"
-                style={{ color: "white" }}
-                target="_blank" 
+                style={linkStyle}
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
@@ -56,6 +60,6 @@ function Footer() {
       </Row>
     </Container>
   );
-}
+};
 
 export default Footer;

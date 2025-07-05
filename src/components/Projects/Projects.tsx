@@ -1,12 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import motoCast from "../../Assets/Projects/MotoCast.svg";
 import in1020Universet from "../../Assets/Projects/IN1020-universet.svg";
 import article from "../../Assets/Projects/Article.svg";
-import CertificateCards from "./CertificateCard";
 import freeCodeCamp from "../../Assets/Certificates/freeCodeCamp.svg";
 import deepLearning from "../../Assets/Certificates/DeepLearning.svg";
+import { Particle } from "../Particle";
+import { ProjectCards } from "./ProjectCards";
+import { CertificateCards } from "./CertificateCard";
 
 function Projects() {
   return (
@@ -21,7 +21,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards
               imgPath={in1020Universet}
               isBlog={false}
               article={true}
@@ -31,7 +31,7 @@ function Projects() {
             />
           </Col>
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards
               imgPath={motoCast}
               isBlog={false}
               title="MotoCast"
@@ -41,7 +41,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards
               imgPath={article}
               isBlog={false}
               title="Article: A Collection of Question Answering Datasets for Norwegian"
@@ -52,7 +52,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards
               imgPath={article}
               isBlog={false}
               title="Article: Multi-label Scandinavian Language Identification (SLIDE)"
@@ -63,7 +63,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards
               imgPath={article}
               isBlog={false}
               title="Article: Enhancing Language Identification Models"
@@ -86,8 +86,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <CertificateCards
               imgPath={deepLearning}
-              isBlog={false}
-              article={true}
               title="Deep Learning AI"
               description="NLP with Classification and Vector Spaces"
               ghLink="https://www.coursera.org/account/accomplishments/verify/EXMZX3R43G4Z"
@@ -96,8 +94,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <CertificateCards
               imgPath={deepLearning}
-              isBlog={false}
-              article={true}
               title="Deep Learning AI"
               description="Attention in Transformers: Concepts and Code in PyTorch"
               ghLink="https://learn.deeplearning.ai/accomplishments/3c6ba343-2835-4fe8-a70c-24bbdb1e8581?usp=sharing"
@@ -106,8 +102,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <CertificateCards
               imgPath={deepLearning}
-              isBlog={false}
-              article={true}
               title="Deep Learning AI"
               description="ChatGPT Prompt Engineering for Developers"
               ghLink="https://learn.deeplearning.ai/accomplishments/eed7bb12-1770-4360-84cf-e1d9034cd876?usp=sharing"
@@ -116,8 +110,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <CertificateCards
               imgPath={freeCodeCamp}
-              isBlog={false}
-              article={true}
               title="freeCodeCamp"
               description="Machine Learning with Python"
               ghLink="https://www.freecodecamp.org/certification/victorialangoe/machine-learning-with-python-v7"

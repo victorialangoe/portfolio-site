@@ -2,19 +2,28 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/lol.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-const Home2 = () => {
+export const Home2: React.FC = () => {
+  const headingStyle: React.CSSProperties = {
+    fontSize: "2.6em",
+  };
+
+  const socialHeadingStyle: React.CSSProperties = {
+    // Add any specific styles for social heading if needed
+  };
+
+  const socialParagraphStyle: React.CSSProperties = {
+    // Add any specific styles for social paragraph if needed
+  };
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={headingStyle}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
@@ -22,38 +31,41 @@ const Home2 = () => {
               <i>
                 <b className="purple"> Natural Language Processing </b>
               </i>
-              and machine learning, with a particular focus on Norwegian language technology.
+              and machine learning, with a particular focus on Norwegian
+              language technology.
               <br />
-              <br />
-              I recently completed my M.Sc. in Computer Science at the 
+              <br />I recently completed my M.Sc. in Computer Science at the
               <i>
                 <b className="purple"> University of Oslo </b>
               </i>
-              , building upon my B.Sc. in Computer Science and B.Sc. in 
+              , building upon my B.Sc. in Computer Science and B.Sc. in
               <i>
                 <b className="purple"> Political Science</b>
               </i>
-              . Currently looking for work as a Data Scientist/NLP Researcher or Fullstack Developer!
+              . Currently looking for work as a Data Scientist/NLP Researcher or
+              Fullstack Developer!
               <br />
               <br />
               My research focuses on building &nbsp;
               <i>
                 <b className="purple">Norwegian language models and datasets</b>
               </i>
-              , including question-answering systems and language identification tools
-              for Scandinavian languages.
+              , including question-answering systems and language identification
+              tools for Scandinavian languages.
               <br />
               <br />
-              I'm particularly excited about developing 
-              <b className="purple">  NLP solutions </b>
+              I'm particularly excited about developing
+              <b className="purple"> NLP solutions </b>
               using
               <i>
                 <b className="purple">
                   {" "}
-                  Python, machine learning frameworks, and modern web technologies
+                  Python, machine learning frameworks, and modern web
+                  technologies
                 </b>
               </i>
-              &nbsp; to make language technology more accessible for Norwegian speakers.
+              &nbsp; to make language technology more accessible for Norwegian
+              speakers.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -64,8 +76,8 @@ const Home2 = () => {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
+            <h1 style={socialHeadingStyle}>FIND ME ON</h1>
+            <p style={socialParagraphStyle}>
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
@@ -106,5 +118,3 @@ const Home2 = () => {
     </Container>
   );
 };
-
-export default Home2;
