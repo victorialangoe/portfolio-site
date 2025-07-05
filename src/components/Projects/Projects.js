@@ -22,8 +22,8 @@ function Projects() {
               imgPath={in1020Universet}
               isBlog={false}
               title="IN1020 Universe"
-              description="platform"
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              description="IN1020 Game is a gamified learning experience developed for the University of Oslo's mandatory course IN1020. Players explore five themed planets representing key course topics, completing collaborative missions and group-based challenges guided by instructors. Designed to make learning interactive, social, and engaging."
+              ghLink="https://in1020-universet.ifi.uio.no/"
             />
           </Col>
           <Col md={4} className="project-card">
