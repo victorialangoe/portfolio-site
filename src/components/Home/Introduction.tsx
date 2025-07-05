@@ -5,17 +5,9 @@ import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-export const Home2: React.FC = () => {
+export const Introduction: React.FC = () => {
   const headingStyle: React.CSSProperties = {
     fontSize: "2.6em",
-  };
-
-  const socialHeadingStyle: React.CSSProperties = {
-    // Add any specific styles for social heading if needed
-  };
-
-  const socialParagraphStyle: React.CSSProperties = {
-    // Add any specific styles for social paragraph if needed
   };
 
   return (
@@ -76,8 +68,8 @@ export const Home2: React.FC = () => {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1 style={socialHeadingStyle}>FIND ME ON</h1>
-            <p style={socialParagraphStyle}>
+            <h1>FIND ME ON</h1>
+            <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">

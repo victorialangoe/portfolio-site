@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import imageMe from "../../Assets/me.jpg";
-import { Home2 } from "./Home2";
-import { Type } from "./Type";
 import { Particle } from "../Particle";
+import { Introduction } from "./Introduction";
+import { Type } from "./Type";
 
 export const Home: React.FC = () => {
   const headingStyle: React.CSSProperties = {
@@ -61,7 +61,7 @@ export const Home: React.FC = () => {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <Introduction />
     </section>
   );
 };

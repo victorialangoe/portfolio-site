@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/logo.svg";
 import { CgGitFork, CgFileDocument } from "react-icons/cg";
 
 import {
@@ -97,17 +97,6 @@ const NavBar: React.FC = () => {
               <Nav.Link as={Link} to="/resume" onClick={handleNavLinkClick}>
                 <CgFileDocument style={iconStyle} /> Resume
               </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={forkButtonStyle} />{" "}
-                <AiFillStar style={starButtonStyle} />
-              </Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

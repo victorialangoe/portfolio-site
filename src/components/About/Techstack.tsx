@@ -8,7 +8,7 @@ import {
   DiDocker,
   DiDjango,
 } from "react-icons/di";
-import { SiPostgresql, SiKotlin, SiFlask, SiCsharp, SiC } from "react-icons/si";
+import { SiPostgresql, SiKotlin, SiFlask, SiCsharp, SiC, SiSqlite } from "react-icons/si";
 
 export const Techstack: React.FC = () => {
   const iconStyle: React.CSSProperties = {
@@ -39,6 +39,9 @@ export const Techstack: React.FC = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql style={iconStyle} />
+      </Col>
+       <Col xs={4} md={2} className="tech-icons">
+        <SiSqlite style={iconStyle} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiDocker style={iconStyle} />
