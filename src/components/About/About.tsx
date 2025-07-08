@@ -24,32 +24,46 @@ export const About = () => {
     padding: "10px",
   };
 
+  const untappdContainerStyle: React.CSSProperties = {
+    position: "relative",
+    zIndex: 1000,
+    pointerEvents: "auto",
+  };
+
   return (
-    <Container fluid className="about-section">
-      <Particle />
-      <Container>
-        <Row style={rowStyle}>
-          <Col md={7} style={colStyle}>
-            <h1 style={headingStyle}>
-              Get To Know <strong className="purple">Me</strong>
-            </h1>
-            <AboutCard />
-          </Col>
-        </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
+    <>
+      <Container fluid className="about-section">
+        <Particle />
+        <Container>
+          <Row style={rowStyle}>
+            <Col md={7} style={colStyle}>
+              <h1 style={headingStyle}>
+                Get To Know <strong className="purple">Me</strong>
+              </h1>
+              <AboutCard />
+            </Col>
+          </Row>
+          <h1 className="project-heading">
+            Professional <strong className="purple">Skillset </strong>
+          </h1>
 
-        <Techstack />
+          <Techstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">Currently</strong> learning
-        </h1>
-        <Toolstack />
+          <h1 className="project-heading">
+            <strong className="purple">Currently</strong> learning
+          </h1>
+          <Toolstack />
 
-        <Github />
-        <UntappdCard />
+          <Github />
+        </Container>
       </Container>
-    </Container>
+
+      {/* Move UntappdCard outside particle container */}
+      <Container fluid style={untappdContainerStyle}>
+        <Container>
+          <UntappdCard />
+        </Container>
+      </Container>
+    </>
   );
 };

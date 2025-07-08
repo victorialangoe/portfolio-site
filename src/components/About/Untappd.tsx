@@ -26,6 +26,7 @@ export const UntappdCard: React.FC = () => {
     maxWidth: "384px",
     color: "#4A4A4A",
     margin: "20px auto",
+    zIndex: "9999",
   };
 
   const headerStyle: React.CSSProperties = {
