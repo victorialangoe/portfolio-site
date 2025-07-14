@@ -5,6 +5,7 @@ import article from "../../Assets/Projects/Article.svg";
 import freeCodeCamp from "../../Assets/Certificates/freeCodeCamp.svg";
 import deepLearning from "../../Assets/Certificates/DeepLearning.svg";
 import goGPT from "../../Assets/Projects/GoGPT_project.svg";
+import udemy from "../../Assets/Certificates/udemy.svg";
 import { Particle } from "../Particle";
 import { ProjectCards } from "./ProjectCards";
 import { CertificateCards } from "./CertificateCard";
@@ -93,6 +94,14 @@ function Projects() {
           Here are a few certifications I've earned.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <CertificateCards
+              imgPath={udemy}
+              title="Go: The Complete Developer's Guide (Golang)"
+              description="Fundamentals and advanced features of the Go Programming Language (Golang)"
+              ghLink="https://www.udemy.com/certificate/UC-a06e4f39-8264-4855-85c5-d74a4d23b79c/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <CertificateCards
               imgPath={deepLearning}
