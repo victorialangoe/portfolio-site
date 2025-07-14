@@ -4,6 +4,7 @@ import in1020Universet from "../../Assets/Projects/IN1020-universet.svg";
 import article from "../../Assets/Projects/Article.svg";
 import freeCodeCamp from "../../Assets/Certificates/freeCodeCamp.svg";
 import deepLearning from "../../Assets/Certificates/DeepLearning.svg";
+import goGPT from "../../Assets/Projects/GoGPT_project.svg";
 import { Particle } from "../Particle";
 import { ProjectCards } from "./ProjectCards";
 import { CertificateCards } from "./CertificateCard";
@@ -20,6 +21,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={goGPT}
+              isBlog={false}
+              title="GoGPT"
+              description=""
+              ghLink="https://github.com/victorialangoe/GoGPT"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCards
               imgPath={in1020Universet}

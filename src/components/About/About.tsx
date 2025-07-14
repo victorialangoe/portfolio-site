@@ -58,7 +58,6 @@ export const About = () => {
         </Container>
       </Container>
 
-      {/* Move UntappdCard outside particle container */}
       <Container fluid style={untappdContainerStyle}>
         <Container>
           <UntappdCard />
